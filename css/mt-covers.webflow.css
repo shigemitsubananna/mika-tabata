@@ -1,3 +1,43 @@
+@font-face {
+  font-family: Moderne Sans;
+  src: url('../fonts/MODERNE-SANS.woff') format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Novecento;
+  src: url('../fonts/Novecento-WideMedium.woff') format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Sourcecodepro;
+  src: url('../fonts/SourceCodePro-Regular.woff') format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neureal Mono;
+  src: url('../fonts/Neureal-Mono.woff') format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Neureal;
+  src: url('../fonts/Neureal-Regular.woff') format("woff");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 :root {
   --black: #1b1a17;
   --white: #faf8f2;
@@ -989,7 +1029,7 @@ a {
     width: 320px;
     height: 100svh;
     padding-top: 1.5rem;
-    display: flex;
+    display: block;
     position: fixed;
     inset: 0% 0% 0% auto;
   }
